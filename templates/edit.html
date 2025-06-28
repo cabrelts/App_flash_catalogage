@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Modifier un livre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background: #1c1c1e; color: #ecf0f1;">
+  <div class="container mt-5 p-4 rounded-4 bg-dark bg-opacity-75">
+    <h2 class="mb-4 text-info">✏️ Modifier le livre</h2>
+
+    <!-- Affichage de la couverture du livre -->
+    {% if book.cover %}
+      <div class="text-center mb-4">
+        <img src="{{ book.cover }}" alt="Couverture du livre" style="max-height: 320px; border-radius: 12px; box-shadow: 0 0 15px #000;">
+      </div>
+    {% endif %}
+
+    <form method="POST" enctype="multipart/form-data">
+      {% for key, value in book.items() if key not in ["cover", "cover_url"] %}
+      <div class="mb-3">
+        <label class="form-label text-warning">{{ key }}</label>
+        <input name="{{ key }}" class="form-control" value="{{ value }}">
+      </div>
+      {% endfor %}
+      <button type="submit" class="btn btn-primary">✅ Enregistrer</button>
+      <a href="{{ url_for('index') }}" class="btn btn-secondary">Annuler</a>
+      <label for="cover_upload">Prendre/choisir une couverture :</label><br>
+      <input type="file" name="cover_upload" accept="image/*" capture="environment"><br><br>
+      <button type="submit">Enregistrer les modifications</button>
+      
+    </form>
+  </div>
+</body>
+</html>
