@@ -2,11 +2,10 @@ import os, sys, queue, requests, threading, json
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, flash
 from pathlib import Path
-from flask import send_from_directory
-
+from flask import send_from_directory, send_file
 
 app = Flask(__name__)
-app.secret_key = "change_this_secret"
+os.environ.get("SECRET_KEY", "fallback_key")
 
 # --- Config & dossiers ---
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -118,10 +117,11 @@ def export():
     df = pd.DataFrame(books_list)
     df["series"], df["genres"] = code, f"{cat}; {sub}"
     fname = f"{cat};{sub};{code}"
+    excel_path = os.path.join(export_folder, fname+".xlsx")
     df.to_csv(os.path.join(export_folder, fname+".csv"), index=False, encoding="utf-8-sig")
-    df.to_excel(os.path.join(export_folder, fname+".xlsx"), index=False, engine="openpyxl")
+    df.to_excel(excel_path, index=False, engine="openpyxl")
     flash(f"Export réussi: {fname}.csv & .xlsx")
-    return redirect(url_for("index"))
+    return send_file(excel_path, as_attachment=True)
 
 @app.route("/clear", methods=["POST"])
 def clear():
@@ -161,4 +161,5 @@ def cover_image(filename):
     return send_from_directory(books_folder, filename)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
