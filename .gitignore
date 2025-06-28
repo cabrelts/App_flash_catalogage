@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+books/
+export/
+bibliotheque.json
+static/
+templates/
