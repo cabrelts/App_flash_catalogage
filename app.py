@@ -5,7 +5,7 @@ from pathlib import Path
 from flask import send_from_directory, send_file
 
 app = Flask(__name__)
-os.environ.get("SECRET_KEY", "fallback_key")
+app.secret_key = os.environ.get("SECRET_KEY", "appliCatalogagenew")
 
 # --- Config & dossiers ---
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
