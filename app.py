@@ -10,9 +10,10 @@ app.secret_key = os.environ.get("SECRET_KEY", "appliCatalogagenew")
 # --- Config & dossiers ---
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 cfg = json.load(open(os.path.join(APP_DIR, "config.json"), encoding="utf-8"))
-books_folder = cfg["books_folder"]
+# Chemin vers le dossier catalogage
+books_folder = os.path.join(APP_DIR, "catalogage")
+os.makedirs(books_folder, exist_ok=True)  # Création du dossier s'il n'existe pas
 export_folder = cfg["export_folder"]
-os.makedirs(books_folder, exist_ok=True)
 os.makedirs(export_folder, exist_ok=True)
 SAVE_FILE = os.path.join(APP_DIR, "bibliotheque.json")
 books_list = json.load(open(SAVE_FILE, "r", encoding="utf-8")) if os.path.exists(SAVE_FILE) else []
@@ -77,7 +78,7 @@ def download_cover(cover_url):
         path = os.path.join(books_folder, filename)
         with open(path, "wb") as f:
             f.write(r.content)
-        return f"/covers/{filename}" 
+        return path  # Retourne le chemin local au lieu de l'URL
     except:
         return ""
 
