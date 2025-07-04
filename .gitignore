@@ -3,8 +3,6 @@ __pycache__/
 *.pyo
 *.pyd
 .env
-books/
-export/
-bibliotheque.json
-static/
-templates/
+
+
+

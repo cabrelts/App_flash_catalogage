@@ -1,4 +1,4 @@
 {
-  "books_folder": "books",
-  "export_folder": "export"
+  "books_folder": "/tmp/books",
+  "export_folder": "/tmp/export"
 }

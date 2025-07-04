@@ -67,15 +67,15 @@ def fetch_data(isbn):
 
     return {"identifier": isbn, "error": f"Aucun résultat pour {isbn}"}
 
-def download_cover(cover_url):
+def download_cover(cover_url, save_path):
     if not cover_url:
         return ""
     try:
         r = requests.get(cover_url, timeout=10)
         r.raise_for_status()
         ext = cover_url.split('.')[-1].split('?')[0][:4]
-        filename = f"{len(os.listdir(books_folder)) + 1}.{ext}"
-        path = os.path.join(books_folder, filename)
+        filename = f"{len(os.listdir(save_path)) + 1}.{ext}"
+        path = os.path.join(save_path, filename)
         with open(path, "wb") as f:
             f.write(r.content)
         return path  # Retourne le chemin local au lieu de l'URL
@@ -90,10 +90,11 @@ def index():
 def search():
     isbns = request.form["isbns"].replace(",", "\n").split()
     results = []
+    save_path = request.form["save_path"]  # Récupérer le chemin de sauvegarde
     for isbn in isbns:
         book = fetch_data(isbn)
         if not book.get("error"):
-            book["cover"] = download_cover(book.get("cover_url",""))
+            book["cover"] = download_cover(book.get("cover_url", ""), save_path)  # Passer le chemin
             books_list.append(book)
         results.append(book)
     save_books()
@@ -111,16 +112,30 @@ def manual():
 
 @app.route("/export", methods=["POST"])
 def export():
-    code = request.form["code"]; cat = request.form["category"]; sub = request.form["subcategory"]
-    if not all([code, cat, sub]):
+    code = request.form["code"]
+    cat = request.form["category"]
+    sub = request.form["subcategory"]
+    
+    # Récupérer le chemin du dossier sélectionné
+    save_path = request.form.get("save_path")  # Modifiez cette ligne en fonction de votre logique
+
+    if not all([code, cat, sub, save_path]):
         flash("Tous les champs sont obligatoires", "danger")
         return redirect(url_for("index"))
+    
+    # Création du DataFrame
     df = pd.DataFrame(books_list)
     df["series"], df["genres"] = code, f"{cat}; {sub}"
     fname = f"{cat};{sub};{code}"
-    excel_path = os.path.join(export_folder, fname+".xlsx")
-    df.to_csv(os.path.join(export_folder, fname+".csv"), index=False, encoding="utf-8-sig")
+
+    # Enregistrement des fichiers dans le dossier spécifié
+    csv_path = os.path.join(save_path, fname + ".csv")
+    excel_path = os.path.join(save_path, fname + ".xlsx")
+    
+    # Exportation des données
+    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
     df.to_excel(excel_path, index=False, engine="openpyxl")
+    
     flash(f"Export réussi: {fname}.csv & .xlsx")
     return send_file(excel_path, as_attachment=True)
 
@@ -161,6 +176,25 @@ def edit(identifier):
 def cover_image(filename):
     return send_from_directory(books_folder, filename)
 
+@app.route("/setup", methods=["GET", "POST"])
+def setup():
+    if request.method == "POST":
+        export_folder = request.form["export_folder"]
+        books_folder = request.form["books_folder"]
+
+        # Enregistrez les chemins dans le fichier de configuration
+        cfg = {
+            "export_folder": export_folder,
+            "books_folder": books_folder
+        }
+        with open(os.path.join(APP_DIR, "config.json"), "w", encoding="utf-8") as f:
+            json.dump(cfg, f, ensure_ascii=False, indent=2)
+
+        flash("Configuration enregistrée avec succès!")
+        return redirect(url_for("index"))
+
+    return render_template("setup.html")
+    
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
