@@ -1,7 +1,10 @@
-import os, sys, queue, requests, threading, json
+import os
+import queue
+import requests
+import threading
+import json
 import pandas as pd
 from flask import Flask, render_template, request, redirect, url_for, flash
-from pathlib import Path
 from flask import send_from_directory, send_file
 
 app = Flask(__name__)
@@ -10,11 +13,13 @@ app.secret_key = os.environ.get("SECRET_KEY", "appliCatalogagenew")
 # --- Config & dossiers ---
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
 cfg = json.load(open(os.path.join(APP_DIR, "config.json"), encoding="utf-8"))
+
 # Chemin vers le dossier catalogage
 books_folder = os.path.join(APP_DIR, "catalogage")
 os.makedirs(books_folder, exist_ok=True)  # Création du dossier s'il n'existe pas
 export_folder = cfg["export_folder"]
 os.makedirs(export_folder, exist_ok=True)
+
 SAVE_FILE = os.path.join(APP_DIR, "bibliotheque.json")
 books_list = json.load(open(SAVE_FILE, "r", encoding="utf-8")) if os.path.exists(SAVE_FILE) else []
 save_lock = threading.Lock()
@@ -29,7 +34,8 @@ def fetch_data(isbn):
     # OpenLibrary
     try:
         url = f"https://openlibrary.org/api/books?bibkeys=ISBN:{isbn}&format=json&jscmd=data"
-        r = requests.get(url, timeout=10); r.raise_for_status()
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
         data = r.json().get(f"ISBN:{isbn}")
         if data:
             return {
@@ -44,12 +50,14 @@ def fetch_data(isbn):
                 "summary": "",
                 "cover_url": data.get("cover", {}).get("large", "")
             }
-    except: pass
+    except:
+        pass
 
     # Google Books fallback
     try:
         url = f"https://www.googleapis.com/books/v1/volumes?q=isbn:{isbn}"
-        r = requests.get(url, timeout=10); r.raise_for_status()
+        r = requests.get(url, timeout=10)
+        r.raise_for_status()
         info = r.json().get("items", [])[0].get("volumeInfo", {})
         return {
             "title": info.get("title", ""),
@@ -63,23 +71,28 @@ def fetch_data(isbn):
             "summary": info.get("description", ""),
             "cover_url": info.get("imageLinks", {}).get("thumbnail", "")
         }
-    except: pass
+    except:
+        pass
 
     return {"identifier": isbn, "error": f"Aucun résultat pour {isbn}"}
 
-def download_cover(cover_url, save_path):
+def download_cover(cover_url):
     if not cover_url:
+        print("Aucune URL de couverture fournie.")
         return ""
     try:
+        print(f"Téléchargement de l'image depuis : {cover_url}")
         r = requests.get(cover_url, timeout=10)
         r.raise_for_status()
         ext = cover_url.split('.')[-1].split('?')[0][:4]
-        filename = f"{len(os.listdir(save_path)) + 1}.{ext}"
-        path = os.path.join(save_path, filename)
+        filename = f"{len(os.listdir(books_folder)) + 1}.{ext}"
+        path = os.path.join(books_folder, filename)
         with open(path, "wb") as f:
             f.write(r.content)
-        return path  # Retourne le chemin local au lieu de l'URL
-    except:
+        print(f"Couverture enregistrée à : {path}")
+        return url_for("cover_image", filename=filename)  # Retourner l'URL
+    except Exception as e:
+        print(f"Erreur lors du téléchargement de la couverture : {e}")
         return ""
 
 @app.route("/")
@@ -88,15 +101,17 @@ def index():
 
 @app.route("/search", methods=["POST"])
 def search():
+    print(request.form)
     isbns = request.form["isbns"].replace(",", "\n").split()
     results = []
-    save_path = request.form["save_path"]  # Récupérer le chemin de sauvegarde
+    
     for isbn in isbns:
         book = fetch_data(isbn)
         if not book.get("error"):
-            book["cover"] = download_cover(book.get("cover_url", ""), save_path)  # Passer le chemin
+            book["cover"] = download_cover(book.get("cover_url", ""))  # Passer le chemin
             books_list.append(book)
         results.append(book)
+    
     save_books()
     return render_template("index.html", books=books_list, new_books=results)
 
@@ -115,11 +130,8 @@ def export():
     code = request.form["code"]
     cat = request.form["category"]
     sub = request.form["subcategory"]
-    
-    # Récupérer le chemin du dossier sélectionné
-    save_path = request.form.get("save_path")  # Modifiez cette ligne en fonction de votre logique
 
-    if not all([code, cat, sub, save_path]):
+    if not all([code, cat, sub]):
         flash("Tous les champs sont obligatoires", "danger")
         return redirect(url_for("index"))
     
@@ -129,8 +141,8 @@ def export():
     fname = f"{cat};{sub};{code}"
 
     # Enregistrement des fichiers dans le dossier spécifié
-    csv_path = os.path.join(save_path, fname + ".csv")
-    excel_path = os.path.join(save_path, fname + ".xlsx")
+    csv_path = os.path.join(export_folder, fname + ".csv")
+    excel_path = os.path.join(export_folder, fname + ".xlsx")
     
     # Exportation des données
     df.to_csv(csv_path, index=False, encoding="utf-8-sig")
@@ -194,7 +206,7 @@ def setup():
         return redirect(url_for("index"))
 
     return render_template("setup.html")
-    
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
