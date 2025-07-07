@@ -1,5 +1,694 @@
 [
   {
+    "title": "Yes to Life (A Fount Original)",
+    "authors": "David B. Clark",
+    "series": "",
+    "genres": "Christian communities, Great britain, religion",
+    "publish_date": "March 12, 1987",
+    "publisher": "Fount",
+    "pages": 208,
+    "identifier": "0006270743",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "The home church",
+    "authors": "Robert J. Banks",
+    "series": "",
+    "genres": "House churches",
+    "publish_date": "1986",
+    "publisher": "Albatross Books",
+    "pages": 261,
+    "identifier": "0867600233",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10704399-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "New hope for congregations",
+    "authors": "Loren B. Mead",
+    "series": "",
+    "genres": "Church renewal, Project Test Pattern, Parochies, Gemeenteleven",
+    "publish_date": "1972",
+    "publisher": "Seabury Press",
+    "pages": 128,
+    "identifier": "0816420777",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10717133-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Your Church Sign",
+    "authors": "Dr. Verlyn Verbrugge",
+    "series": "",
+    "genres": "Christian art and symbolism, Churches, Advertising, Church signs",
+    "publish_date": "October 1, 1999",
+    "publisher": "Zondervan",
+    "pages": 128,
+    "identifier": "9780310228028",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/169915-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Faithworks",
+    "authors": "Steve Chalke",
+    "series": "",
+    "genres": "Community centers, Christian life, Church and social problems",
+    "publish_date": "November 9, 2001",
+    "publisher": "Kingsway Publications",
+    "pages": 160,
+    "identifier": "1842910140",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10387646-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Shaking the sleeping beauty",
+    "authors": "Michael Griffiths",
+    "series": "",
+    "genres": "Addresses, essays, lectures, Christianity and culture, Church growth, Church and the world, Missions",
+    "publish_date": "1980",
+    "publisher": "Inter-Varsity Press",
+    "pages": 207,
+    "identifier": "0851104169",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/11955253-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The Smaller church in a super church era",
+    "authors": "Bill M. Sullivan, Paul M. Bassett",
+    "series": "",
+    "genres": "Small churches",
+    "publish_date": "1983",
+    "publisher": "Beacon Hill Press of Kansas City",
+    "pages": 152,
+    "identifier": "083410895X",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "The Church unleashed",
+    "authors": "Frank R. Tillapaugh",
+    "series": "",
+    "genres": "Pastoral theology, Church renewal, Bear Valley Baptist Church",
+    "publish_date": "1982",
+    "publisher": "Regal Books",
+    "pages": 224,
+    "identifier": "0830708235",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/9441400-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Church and nation",
+    "authors": "Peter Cornwell",
+    "series": "",
+    "genres": "Church and state, Church history, Church of England, History, Staat, Anglikanische Kirche, Religion and state, Controversial literature, Relations, Church and the world",
+    "publish_date": "1983",
+    "publisher": "Blackwell",
+    "pages": 113,
+    "identifier": "0631132244",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10280583-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "A Message to the Glorious Church",
+    "authors": "Rick Joyner",
+    "series": "",
+    "genres": "Commentaries, Bible",
+    "publish_date": "September 2003",
+    "publisher": "MorningStar Publications",
+    "pages": 192,
+    "identifier": "1929371292",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/953765-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Kingdom Ministry",
+    "authors": "Wimber, John, Springer, Kevin",
+    "series": "",
+    "genres": "Church work",
+    "publish_date": "1988-09-01",
+    "publisher": "Hodder & Stoughton Religious",
+    "pages": 32,
+    "identifier": "0340488646",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Antagonists in the Church Study Guide",
+    "authors": "R. Scott Perry, Kenneth C. Haugk",
+    "series": "",
+    "genres": "Religion, Christianity",
+    "publish_date": "Jan 01, 1988",
+    "publisher": "Augsburg Books",
+    "pages": 64,
+    "identifier": "080662373X",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/12614849-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Turn-Around Churches",
+    "authors": "George Barna",
+    "series": "",
+    "genres": "Pastoral theology, Church renewal",
+    "publish_date": "June 1993",
+    "publisher": "Regal Books",
+    "pages": 122,
+    "identifier": "0830716572",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/632563-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Teenagers and the Church",
+    "authors": "LeslieJ Francis",
+    "series": "",
+    "genres": "Youth, Attitudes, Religious life, Christians, Public opinion, Christian youth, Youth, religious life, Youth, great britain, Public opinion, great britain",
+    "publish_date": "1984",
+    "publisher": "Collins",
+    "pages": 167,
+    "identifier": "0005997739",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/13108395-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Church",
+    "authors": "Nigel Wright",
+    "series": "",
+    "genres": "Christian life",
+    "publish_date": "1984",
+    "publisher": "Scripture Union",
+    "pages": "",
+    "identifier": "0862012236",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "A Message to the Glorious Church",
+    "authors": "Rick Joyner",
+    "series": "",
+    "genres": "Commentaries, Bible",
+    "publish_date": "December 2003",
+    "publisher": "Morningstar Publications (NC)",
+    "pages": 154,
+    "identifier": "1929371306",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/953766-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Kingdom Suffering",
+    "authors": "John Wimber",
+    "series": "",
+    "genres": "",
+    "publish_date": "1989",
+    "publisher": "Hodder & Stoughton",
+    "pages": 32,
+    "identifier": "034050420X",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Reclaiming inactive church members",
+    "authors": "Mark S. Jones",
+    "series": "",
+    "genres": "Ex-church members, Pastoral theology, Church membership",
+    "publish_date": "1988",
+    "publisher": "Broadman Press",
+    "pages": 127,
+    "identifier": "0805432426",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/11016952-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Upward, Inward, Outward, Forward",
+    "authors": "Jim Egli",
+    "series": "",
+    "genres": "Small groups, Christianity, Church group work",
+    "publish_date": "January 2000",
+    "publisher": "Touch Books",
+    "pages": "",
+    "identifier": "1880828200",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10567414-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Confessions of a Reformission Rev",
+    "authors": "Mark Driscoll",
+    "series": "",
+    "genres": "Biography & Autobiography",
+    "publish_date": "2006",
+    "publisher": "Zondervan Publishing Company",
+    "pages": 207,
+    "identifier": "0310270162",
+    "summary": "An inside snapshot view of the innovative Seattle church called Mars Hill and its Acts 29 network, providing--with a touch of sarcasm and humor--both principles and practices shared from the people actually doing missional church ministry with people often untouched by today s traditional and contemporary churches.\"",
+    "cover_url": "http://books.google.com/books/content?id=7pUgmQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "cover": ""
+  },
+  {
+    "title": "Discovering the young church",
+    "authors": "Gordon Moyes",
+    "series": "",
+    "genres": "Church history",
+    "publish_date": "1989",
+    "publisher": "Albatross Books",
+    "pages": 166,
+    "identifier": "0867600071",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/8546068-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The Church and the Tribulation",
+    "authors": "Robert H. Gundry",
+    "series": "",
+    "genres": "Bible, theology, Eschatology",
+    "publish_date": "1973",
+    "publisher": "Zondervan",
+    "pages": 232,
+    "identifier": "0310254019",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/7279406-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Glory in the Church",
+    "authors": "Michael Harper",
+    "series": "",
+    "genres": "Doctrinal Theology, Popular works, Church renewal, Christianity",
+    "publish_date": "1974",
+    "publisher": "Hodder&Stoughton Ltd",
+    "pages": 128,
+    "identifier": "0340192305",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/12142329-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Finding God Between a Rock & a Hard Place",
+    "authors": "",
+    "series": "",
+    "genres": "Prayer",
+    "publish_date": "2000-03-07",
+    "publisher": "Shaw",
+    "pages": 0,
+    "identifier": "0877883290",
+    "summary": "“The promise of God’s daily tender care is a whisper that I cannot forget.” This collection of inspirational stories about everyday grace gathers together personal accounts from people next door and around the globe, from the famous and the lesser known. No matter what your background or circumstances, God’s grace shows up everywhere: airports, coffee shops, hospital rooms–the details of our lives. Some encounters with grace form the book: • “And then a tiny miracle occurred on Flight 134.” • “For the grand sum of one dollar, one regular mom purchased a sliver of God, thanks to a stranger.” • “I never knew that one day I would be thanking the Lord for rats!” • “So, God spared both my can and my already bruised emotions. Call it what you like. I call it a miracle.” • “I picked up the small present and put it in my raincoat pocket. My day had been renewed.” • “I looked and said, ‘Hey girls, you can go back to sleep. Jesus just showed up.’”",
+    "cover_url": "http://books.google.com/books/content?id=N6cIAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+    "cover": ""
+  },
+  {
+    "title": "Good Things Come in Small Groups",
+    "authors": "Roy Pointer",
+    "series": "",
+    "genres": "",
+    "publish_date": "September 25, 1986",
+    "publisher": "Scripture Union Publishing",
+    "pages": 160,
+    "identifier": "0862014123",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Why churches die",
+    "authors": "Hollis L. Green",
+    "series": "",
+    "genres": "Church growth, Evangelistic work",
+    "publish_date": "1972",
+    "publisher": "Bethany Fellowship",
+    "pages": 219,
+    "identifier": "0871236427",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10267511-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The Great Falling Away Today",
+    "authors": "Milton Green",
+    "series": "",
+    "genres": "Christian life",
+    "publish_date": "1986",
+    "publisher": "",
+    "pages": 216,
+    "identifier": "1862630011",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "God's plan to protect his people in the coming depression",
+    "authors": "Wilkerson, David, R.",
+    "series": "",
+    "genres": "Economics, Christianity, Economic conditions, Economic forecasting, Social conditions, Millennialism, Survivalism, Economic history",
+    "publish_date": "1998",
+    "publisher": "Wilkerson Trust Publications",
+    "pages": 195,
+    "identifier": "096631722X",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10434284-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Sixty Nine Ways to Start a Study Group and Keep It Growing",
+    "authors": "Lawrence O. Richards",
+    "series": "",
+    "genres": "Small groups, Church group work, Religion, study and teaching",
+    "publish_date": "June 1980",
+    "publisher": "Zondervan",
+    "pages": "",
+    "identifier": "0310319811",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/9753231-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Making progress in Church life",
+    "authors": "Jonathan Lamb",
+    "series": "",
+    "genres": "",
+    "publish_date": "1997-01-01",
+    "publisher": "Published for Partnership by Paternoster Periodicals",
+    "pages": "",
+    "identifier": "0900128178",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Building Your Church Using Your Gifts Time And Resources",
+    "authors": "Don Cousins",
+    "series": "",
+    "genres": "Christian life, Study and teaching, Church",
+    "publish_date": "1992",
+    "publisher": "Zondervan",
+    "pages": "",
+    "identifier": "031059183X",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/7621643-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The gravedigger file",
+    "authors": "Os Guinness",
+    "series": "",
+    "genres": "Secularization (Theology), Christianity, Christianity, 20th century",
+    "publish_date": "1983",
+    "publisher": "Hodder and Stoughton",
+    "pages": 253,
+    "identifier": "0340324694",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/8406126-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The gravedigger file",
+    "authors": "Os Guinness",
+    "series": "",
+    "genres": "Secularization (Theology), Christianity, Christianity, 20th century",
+    "publish_date": "1983",
+    "publisher": "Hodder and Stoughton",
+    "pages": 253,
+    "identifier": "0340324694",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/8406126-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The church & the parachurch",
+    "authors": "Jerry E. White",
+    "series": "",
+    "genres": "Religious and ecclesiastical institutions, Church, Religious institutions",
+    "publish_date": "1983",
+    "publisher": "Multnomah Press",
+    "pages": 192,
+    "identifier": "0880700181",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/7147916-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Missional church",
+    "authors": "Darrell L. Guder, Lois Barrett",
+    "series": "",
+    "genres": "Twenty-first century, Missions, Christian leadership, Theory, Mission of the church, Christianity, World history, Missions, theory, Missions, north america",
+    "publish_date": "1998",
+    "publisher": "W.B. Eerdmans Pub.",
+    "pages": 280,
+    "identifier": "0802843506",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/572761-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Anglican Evangelical Crisis:",
+    "authors": "Melvin Tinker",
+    "series": "",
+    "genres": "Evangelicalism, Church of England",
+    "publish_date": "October 1995",
+    "publisher": "Christian Focus Publications",
+    "pages": 222,
+    "identifier": "1857921836",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/12635224-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Growth Groups",
+    "authors": "Colin Marshall",
+    "series": "",
+    "genres": "Church group work, Handbooks, manuals, Small groups",
+    "publish_date": "January 1, 1995",
+    "publisher": "Matthias Press",
+    "pages": "",
+    "identifier": "9781875245406",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/922977-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Rediscovering Church",
+    "authors": "Bill Hybels",
+    "series": "",
+    "genres": "Church history, Church growth, Case studies, Big churches, Willow Creek Community Church (South Barrington, Ill.), Christian life",
+    "publish_date": "December 21, 1997",
+    "publisher": "Zondervan",
+    "pages": 224,
+    "identifier": "0310219272",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/169674-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Always advancing",
+    "authors": "R. Daniel Reeves",
+    "series": "",
+    "genres": "Church growth, Handbooks, manuals, Christian life, Success",
+    "publish_date": "1984",
+    "publisher": "Here's Life Publishers",
+    "pages": 196,
+    "identifier": "0866051201",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/6610004-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Kingdom Evangelism",
+    "authors": "John Wimber",
+    "series": "",
+    "genres": "",
+    "publish_date": "1989",
+    "publisher": "Hodder & Stoughton",
+    "pages": 32,
+    "identifier": "0340504226",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "The story of the Church.",
+    "authors": "A. M. Renwick",
+    "series": "",
+    "genres": "Church history, Christianity, History",
+    "publish_date": "1985",
+    "publisher": "Inter-Varsity Press",
+    "pages": 267,
+    "identifier": "0851104649",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10636355-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The story of the Church.",
+    "authors": "A. M. Renwick",
+    "series": "",
+    "genres": "Church history, Christianity, History",
+    "publish_date": "1985",
+    "publisher": "Inter-Varsity Press",
+    "pages": 267,
+    "identifier": "0851104649",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10636355-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Destined for the Throne",
+    "authors": "Paul E. Billheimer",
+    "series": "",
+    "genres": "Christianity, Church, Prayer, Mystical body, Biblical teaching",
+    "publish_date": "1975",
+    "publisher": "Christian Literature Crusade",
+    "pages": "",
+    "identifier": "0875080146",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/9472747-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Growing Christians in Small Groups",
+    "authors": "John Mallison",
+    "series": "",
+    "genres": "Church group work",
+    "publish_date": "1989",
+    "publisher": "Scripture Union",
+    "pages": "",
+    "identifier": "0858924072",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Growing Christians in Small Groups",
+    "authors": "John Mallison",
+    "series": "",
+    "genres": "Church group work",
+    "publish_date": "1989",
+    "publisher": "Scripture Union",
+    "pages": "",
+    "identifier": "0858924072",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Kingdom Mercy",
+    "authors": "John Wimber",
+    "series": "",
+    "genres": "Forgiveness",
+    "publish_date": "1988",
+    "publisher": "Hodder & Stoughton",
+    "pages": 32,
+    "identifier": "0340488654",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Kingdom Come",
+    "authors": "John Wimber",
+    "series": "",
+    "genres": "Kingdom of god, biblical teaching",
+    "publish_date": "June 1, 1989",
+    "publisher": "Hodder & Stoughton Religious",
+    "pages": 32,
+    "identifier": "0340504218",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Church Discipline",
+    "authors": "Stuart Murray",
+    "series": "",
+    "genres": "Church discipline",
+    "publish_date": "November 2000",
+    "publisher": "Sovereign World, Ltd.",
+    "pages": 48,
+    "identifier": "1852401346",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/900231-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Your Church, where to from Here?",
+    "authors": "Graeme Lewis Chapman",
+    "series": "",
+    "genres": "Evangelistic work",
+    "publish_date": "1977",
+    "publisher": "",
+    "pages": 102,
+    "identifier": "0909116067",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Watch of the Lord",
+    "authors": "Mahesh Chavda",
+    "series": "",
+    "genres": "Prayer, Second Advent, Christianity, Spiritual life, christianity",
+    "publish_date": "1999",
+    "publisher": "Creation House",
+    "pages": 210,
+    "identifier": "0884195627",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/1641278-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "The secular use of church buildings",
+    "authors": "Davies, G. J.",
+    "series": "",
+    "genres": "Church buildings, Secular use, Églises",
+    "publish_date": "1968",
+    "publisher": "S.C.M. Press",
+    "pages": 305,
+    "identifier": "0334014816",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/10664010-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "This Little Church Stayed Home",
+    "authors": "Gary E. Gilley",
+    "series": "",
+    "genres": "",
+    "publish_date": "June 2006",
+    "publisher": "Evangelical Press",
+    "pages": 190,
+    "identifier": "0852346034",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/6721270-L.jpg",
+    "cover": ""
+  },
+  {
+    "title": "Setting your church free",
+    "authors": "Neil T. Anderson",
+    "series": "",
+    "genres": "",
+    "publish_date": "1995",
+    "publisher": "Regal Books",
+    "pages": 352,
+    "identifier": "0830716823",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
     "title": "Cruden's Complete Concordance to the Old and New Testaments",
     "authors": "Alexander Cruden",
     "series": "",
@@ -10,7 +699,7 @@
     "identifier": "0917006313",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/706828-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\1.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\18.jpg"
   },
   {
     "title": "The Treasury of Scripture knowledge",
@@ -23,7 +712,7 @@
     "identifier": "0917006224",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/706822-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\2.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\19.jpg"
   },
   {
     "title": "Cruden's complete concordance to the Old and New Testaments",
@@ -36,7 +725,7 @@
     "identifier": "0718802020",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/11613015-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\3.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\20.jpg"
   },
   {
     "title": "Cruden's complete concordance to the Old and New Testaments",
@@ -49,7 +738,7 @@
     "identifier": "0718802020",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/11613015-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\4.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\21.jpg"
   },
   {
     "title": "Cruden's complete concordance to the Old and New Testaments",
@@ -62,7 +751,7 @@
     "identifier": "0718802020",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/11613015-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\5.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\22.jpg"
   },
   {
     "title": "Cruden's complete concordance to the Old and New Testaments",
@@ -75,7 +764,7 @@
     "identifier": "0718802020",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/11613015-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\6.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\23.jpg"
   },
   {
     "title": "Cruden's complete concordance to the Old and New Testaments",
@@ -88,7 +777,7 @@
     "identifier": "0718802020",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/11613015-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\7.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\24.jpg"
   },
   {
     "title": "Cruden's complete concordance to the Old and New Testaments",
@@ -101,7 +790,7 @@
     "identifier": "0718802047",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/9531447-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\8.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\25.jpg"
   },
   {
     "title": "NIV Handy Concordance",
@@ -114,7 +803,7 @@
     "identifier": "0340383135",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/11081881-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\9.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\26.jpg"
   },
   {
     "title": "Holman Bible concordance",
@@ -127,7 +816,7 @@
     "identifier": "0879810939",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/7018176-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\10.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\27.jpg"
   },
   {
     "title": "Cruden's Complete Concordance",
@@ -140,7 +829,7 @@
     "identifier": "0310229200",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/169958-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\11.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\28.jpg"
   },
   {
     "title": "New International Bible concordance",
@@ -153,7 +842,7 @@
     "identifier": "0310229022",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/169950-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\12.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\29.jpg"
   },
   {
     "title": "The Brown-Driver-Briggs Hebrew and English Lexicon",
@@ -166,7 +855,7 @@
     "identifier": "1565632060",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/8645335-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\13.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\30.jpg"
   },
   {
     "title": "The Treasury of Scripture knowledge",
@@ -179,33 +868,7 @@
     "identifier": "0917006224",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/706822-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\14.jpg"
-  },
-  {
-    "title": "Nelson's Super Value Series",
-    "authors": "James Strong",
-    "series": "",
-    "genres": "Bible, concordances, English Concordances, Indexes, Hebrew language, Dictionaries, English, Aramaic language, Biblical Greek language, Bible",
-    "publish_date": "April 6, 2003",
-    "publisher": "Thomas Nelson",
-    "pages": "1920",
-    "identifier": "0785250557",
-    "summary": "",
-    "cover_url": "https://covers.openlibrary.org/b/id/536926-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\15.jpg"
-  },
-  {
-    "title": "Strong's Concordance of the Bible",
-    "authors": "James Strong",
-    "series": "",
-    "genres": "Bible, English Concordances, Hebrew language, Biblical Greek language, Dictionaries, Concordances, English, English, Greek language, Biblical, Bible, concordances",
-    "publish_date": "1980",
-    "publisher": "T. Nelson",
-    "pages": 770,
-    "identifier": "0840749864",
-    "summary": "",
-    "cover_url": "https://covers.openlibrary.org/b/id/8517957-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\16.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\31.jpg"
   },
   {
     "title": "Nelson's Super Value Series",
@@ -218,6 +881,84 @@
     "identifier": "0785250557",
     "summary": "",
     "cover_url": "https://covers.openlibrary.org/b/id/536926-L.jpg",
-    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\17.jpg"
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\32.jpg"
+  },
+  {
+    "title": "Strong's Concordance of the Bible",
+    "authors": "James Strong",
+    "series": "",
+    "genres": "Bible, English Concordances, Hebrew language, Biblical Greek language, Dictionaries, Concordances, English, English, Greek language, Biblical, Bible, concordances",
+    "publish_date": "1980",
+    "publisher": "T. Nelson",
+    "pages": 770,
+    "identifier": "0840749864",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/8517957-L.jpg",
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\33.jpg"
+  },
+  {
+    "title": "Nelson's Super Value Series",
+    "authors": "James Strong",
+    "series": "",
+    "genres": "Bible, concordances, English Concordances, Indexes, Hebrew language, Dictionaries, English, Aramaic language, Biblical Greek language, Bible",
+    "publish_date": "April 6, 2003",
+    "publisher": "Thomas Nelson",
+    "pages": 1920,
+    "identifier": "0785250557",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/536926-L.jpg",
+    "cover": "C:\\Users\\CABREL TSUANYO\\Desktop\\catalo\\catalogage\\34.jpg"
+  },
+  {
+    "title": "Basic Christianity",
+    "authors": "John R. W. Stott",
+    "series": "",
+    "genres": "Doctrinal Theology, Popular works, Christianity, Christian life, Confirmation, Theology, doctrinal, Theology, doctrinal, popular works",
+    "publish_date": "1971",
+    "publisher": "Inter-Varsity Press",
+    "pages": 144,
+    "identifier": "0851103537",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "What Christ thinks of the church",
+    "authors": "John R. W. Stott",
+    "series": "",
+    "genres": "Sermons, English Sermons, Bible, Church of England",
+    "publish_date": "1982",
+    "publisher": "Eerdmans",
+    "pages": 128,
+    "identifier": "0802814514",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/12140692-L.jpg",
+    "cover": "/covers/35.jpg"
+  },
+  {
+    "title": "The Bible",
+    "authors": "John R. W. Stott",
+    "series": "",
+    "genres": "Bible, inspiration, Bible, evidences, authority, etc.",
+    "publish_date": "1982",
+    "publisher": "IVP",
+    "pages": 80,
+    "identifier": "0851104398",
+    "summary": "",
+    "cover_url": "",
+    "cover": ""
+  },
+  {
+    "title": "Christian counter culture",
+    "authors": "John R. W. Stott",
+    "series": "",
+    "genres": "Sermon on the mount, Sermon sur la montagne",
+    "publish_date": "1978",
+    "publisher": "Inter-Varsity Press",
+    "pages": 222,
+    "identifier": "085110584X",
+    "summary": "",
+    "cover_url": "https://covers.openlibrary.org/b/id/11603879-L.jpg",
+    "cover": ""
   }
 ]
